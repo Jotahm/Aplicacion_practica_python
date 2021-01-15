@@ -1,5 +1,7 @@
 # CALCULADORA BÁSICA - PROYECTO N1
 
+# Hagámoslo sencillo: calculadora sumatoria de dos ítems.
+
 # Declaramos las variables
 # Utilizamos input para que se guarde el dato introducido
 num1 = input("Introduce un número: ")
