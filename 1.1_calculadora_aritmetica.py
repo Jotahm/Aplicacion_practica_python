@@ -1,4 +1,5 @@
 # CALCULADORA
+# EN PROCESO, ESTE PROGRAMA NO ES OPERATIVO
 
 # Declaramos las variables
 # Utilizamos input para que se guarde el dato introducido
@@ -6,7 +7,7 @@ num1 = input("Introduce un número: ")
 signo = input ("Introduce signo aritmético: ")
 num2 = input ("Introduce otro número: ")
 
-if signo = "+":
+####if signo = "+": #La idea es condicionar el resultado en función del signo introducido
     res = num1 + num2
 
 # Realizamos la suma y guardamos resultado
