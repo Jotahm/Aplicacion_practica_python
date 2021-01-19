@@ -1,5 +1,5 @@
 # CALCULADORA
-# EN PROCESO, ESTE PROGRAMA NO ES OPERATIVO
+# EN PROCESO, ¿Qué más funciones podríamos añadir a la calculadora?
 
 # Declaramos las variables
 # Utilizamos input para que se guarde el dato introducido
@@ -7,13 +7,17 @@ num1 = input("Introduce un número: ")
 signo = input ("Introduce signo aritmético: ")
 num2 = input ("Introduce otro número: ")
 
-####if signo = "+": #La idea es condicionar el resultado en función del signo introducido
-    res = num1 + num2
+if signo == "+": # declarando la suma
+    res = int(num1) + int(num2)
 
-# Realizamos la suma y guardamos resultado
-res = float(num1) + float(num2) # Poniendo float permitimos operar con decimales ; en caso contrario, está concatenando dos cadenas
+if signo == "-": # declarando la resta
+    res = int(num1) - int(num2)
 
-# Imprimimos el resultado y un mensaje de despedida
+if signo == "*": # declarando la multiplicación
+    res = int(num1) * int(num2)
 
-print ("La suma es:", res)
+if signo == "/": # declarando la división
+    res = int(num1) / int(num2)
+
+print ("El resultado es:", res)
 print ("Gracias por usarme")
