@@ -1,3 +1,6 @@
+# EJERCICIO PRÁCTICO
+# Crea un programa en el que se calcule el salario de un trabajador en el que las primeras 40 horas cobra "p" y de ahí en adelante "p*1.5" la hora. Utiliza los siguientes conceptos:
+
 #def computepay(horas, retribución):
     #return 42.37
 
