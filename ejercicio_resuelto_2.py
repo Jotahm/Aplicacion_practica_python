@@ -4,6 +4,17 @@
 # Le indique al usuario si el número en cuestión es par o impar.
 # Extra: Meteremos algunas cosas extra que quedarán referidas con comentarios
 
+# El programa sencillo sería el siguiente:
+#numero = input("Introduce el número que quieres comprobar: ")
+#numero = int(numero)
+
+#if numero % 2 == 0:
+        print ("Tu número es par. ")
+#else:
+        print ("Tu número es impar. ")
+    
+# Aplicando algunas técnicas más, podemos hacer algo más elaborado: 
+
 
 
 print ("Bienvenido a 'par o impar'. \n") # Mensaje de bienvenida al programa
