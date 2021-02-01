@@ -1,0 +1,21 @@
+# Dada una nota comprendida entre 0 y 1 establece un calificador:
+
+print ("¡Deseo que te haya salido bien el examen!")
+
+nota = input ("Introduce tu calificación: ")
+n = float(nota)
+
+if n <0:
+    print ("La nota introducida está por debajo de la mínima.")
+elif n >1:
+    print ("La nota introducida está por encima de la máxima.")
+elif n >= 0.9:
+    print("A")
+elif n >= 0.8:
+    print ("B")
+elif n >= 0.7:
+    print ("C")
+elif n >= 0.6:
+    print ("D")
+elif n < 0.6:
+    print ("F")
