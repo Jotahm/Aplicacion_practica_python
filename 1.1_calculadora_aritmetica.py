@@ -1,5 +1,5 @@
 # CALCULADORA
-# EN PROCESO, ¿Qué más funciones podríamos añadir a la calculadora?
+# EN PROCESO, ¿Qué más funciones podríamos añadirle a la calculadora?
 
 # Declaramos las variables
 # Utilizamos input para que se guarde el dato introducido
